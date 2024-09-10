@@ -2,9 +2,9 @@
 
 ## Fortran continues to improve in many ways..
 
-* MPI+Fortran keeps getting better (Thanks, Jeff)
-* Native parallel Fortran continues to improve (Thanks, Kate, Damian & CLaSS team)
-* Fortran 2028 will bring type-safe generics (Thanks, Tom & The Generics team)
+* Latest release is Fortran 2023
+* Native and MPI-based parallelism continue to improve
+* Fortran 2028 will bring powerful, type-safe, generics
 * The modern ecosystem of Fortran tools and libraries is growing rapidly
 </section>
 
@@ -19,8 +19,18 @@
   and the US Fortran Standards Committee
 * Supported by the Google Summer of Code Program 4 years in a row (19 student projects to date)
 * Grants from the Sovereign Tech Fund in 2022 and 2023
-* And now a [NumFOCUS](https://numfocus.org) fiscally sponsored project
+* A [NumFOCUS](https://numfocus.org/project/fortran-lang) fiscally sponsored project
 
+</section>
+
+
+<section>
+
+## Fortran's popularity according to TIOBE
+
+![TIOBE](assets/tiobe_fortran.png)
+
+<div class="reference">Image credit: Jacob Williams</div>
 </section>
 
 

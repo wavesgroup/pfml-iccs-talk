@@ -18,12 +18,12 @@
 
 ## ...and so it eats the Numerical Weather Prediction (NWP) as well
 
-* We've entered a new revolution in NWP.
-* AI NWP models are:
+* We've entered a new era of NWP.
+* Data-based (AI) NWP models are:
   - orders of magnitude faster;
   - match or beat the accuracy of traditional models on _some_ metrics.
 * New AI models appear rapidly: FourCastNet, GraphCast, PanguWeather, FuXi, NeuralGCM, AtmoRep, ClimaX, STORMER, ACE, StormCast, etc.
-* Though extremely useful for prediction, they cannot (yet) replace the traditional physics-based models.
+* Though extremely useful for prediction, they can't (yet) replace the physics-based models.
 </section>
 
 
@@ -60,10 +60,11 @@ $\rightarrow$ Domain scientist asks: How do I run ML within my Fortran applicati
 
 ## Multiple approaches to ML in Fortran
 
+* Two-language disk-based interop, e.g. [Fortran Keras Bridge](https://doi.org/10.1155/2020/8888811)
 * PyTorch bindings: [pytorch-fortran](https://github.com/alexeedm/pytorch-fortran), [ftorch](https://github.com/Cambridge-ICCS/FTorch), [torchfort](https://github.com/NVIDIA/TorchFort)
 * TensorFlow bindings: [fortran-tf-lib](https://github.com/Cambridge-ICCS/fortran-tf-lib)
 * _Pure Fortran ML_:
-  - Naturally great fit for ML: First-class multi-dimensional arrays, `matmul`, `dot_product`, `sum`, `pack`, `unpack`, `reshape` etc.
+  - Natural fit for ML: First-class multi-dimensional arrays, `matmul`, `dot_product`, `sum`, `pack`, `unpack`, `reshape` etc.
   - Fast linear algebra libraries
   - No complexity associated with multi-language applications
   - Many Fortran programmers would love to use pure Fortran ML.
