@@ -1,20 +1,19 @@
 <section>
 
-## Takeaways and some personal outlooks
+## Takeaways
 
-* NWP has entered a new revolution with AI models
+* Machine Learning is transforming the the NWP and Earth System Modeling enterprise
 * Phenomenal *forecasting* tools that won't replace traditional models for *research*
-* Pure Fortran ML has its place in Earth System Modeling
-* What does the future of Earth System Modeling look like?
-  - A wide, diverse, spectrum of traditional, AI, and hybrid models
-  - ML implemented in many languages for respective needs
-  - Hardware will continue to evolve and remain ahead of software
-* Fortran will continue to rock and improve.
+* Pure Fortran ML approach may appeal to:
+  - Domain scientist who mostly work with Fortran-based models
+  - Fortran enthusiasts
+* Fortran the language and its ecosystem of compilers, tools, and libraries
+  continues to improve
+* If you haven't tried modern Fortran before, please do!
 </section>
 
 
 <section>
 
-## Thank you and get off my porch!
-😉
+## Thank you!
 </section>

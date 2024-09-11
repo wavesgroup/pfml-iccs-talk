@@ -23,7 +23,7 @@ _September 10, 2024_
 * I study ocean waves and their role in the Earth system
 * Mix of theory, field and laboratory measurements, and numerical modeling
 * I wrote a popular book for Fortran beginners
-* I'm not an ML practitioner, but I love learning new things
+* I'm not an ML practitioner yet, but I enjoy making useful tools
 </section>
 
 
@@ -69,9 +69,6 @@ _September 10, 2024_
     introducing an integration complexity when used in Fortran applications.
 * **Pure Fortran** ML
   - Fortran itself provides all the necessary building blocks for ML,
-    making a Pure Fortran approach one candidate to integrating ML in physics-based
+    making a Pure Fortran approach a candidate to applying ML in physics-based
     Fortran models.
-* **Pure Fortran ML**
-  - We will look at one candidate solution to this problem and the challenges in
-    the design and implementation.
 </section>

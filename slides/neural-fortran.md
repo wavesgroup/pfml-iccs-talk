@@ -41,10 +41,10 @@
 
 ## Design principles
 
-1. **Easy to use**: nice, concise, high-level API;
-2. **Easy to extend**: modular design;
-3. **Be hardware-agnostic**: let the compiler optimize when possible;
-4. **Be self-contained**: no external dependencies when possible;
+1. **Easy to use**: nice, concise, high-level API
+2. **Easy to extend**: modular design
+3. **Hardware-agnostic**: let the compiler optimize & accelerate
+4. **Self-contained**: no external dependencies when possible
 </section>
 
 
@@ -91,7 +91,7 @@ end program simple
 
 <section>
 
-## Creating, training, and running a CNN with neural-fortran
+## Convolutional network training and inference
 
 ```fortran
 use nf
@@ -125,7 +125,37 @@ print *, net % predict(test_images)
 
 <section>
 
-## More Fortran ML goodness
+## nf-keras-hdf5: Load Keras models saved in HDF5
+
+* [https://github.com/neural-fortran/nf-keras-hdf5](https://github.com/neural-fortran/nf-keras-hdf5)
+* Optional plugin for neural-fortran
+* Instead of defining the network, give it the HDF5 path string
+
+```fortran
+program cnn_from_keras
+  use nf, only: network
+
+  type(network) :: net
+
+  net = network("keras_cnn_mnist.h5")
+
+  ! run inference
+```
+</section>
+
+
+<section>
+
+## Single-core CPU performance in training
+
+![benchmark_dense_mnist](assets/benchmark_dense_mnist.png)
+
+</section>
+
+
+<section>
+
+## Other Fortran ML libraries
 
 * [inference-engine](https://github.com/BerkeleyLab/inference-engine) - A deep learning library for HPC applications
 * [athena](https://github.com/nedtaylor/athena) - Another ML framework, inspired by neural-fortran
