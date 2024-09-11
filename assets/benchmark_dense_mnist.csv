@@ -1,0 +1,7 @@
+Compiler,Elapsed
+NF + gfortran-14.0.1,4.366
+NF + gfortran-13.2.0,4.054
+NF + ifort-2021.13.1,9.990
+NF + ifx-2024.2.1,10.570
+NF + llvm-flang-20.0.0,10.59
+Keras3 + Tensorflow,8.399
